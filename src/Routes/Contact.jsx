@@ -1,8 +1,28 @@
-import React from "react";
+import React, { useState } from "react";
 import "../globalStyle.css";
 import Message from "../Assets/message.svg";
+import { useForm, ValidationError } from "@formspree/react";
+import Swal from "sweetalert2";
 
 const Contact = () => {
+  const [name, setName] = useState("");
+  const [email, setEmail] = useState("");
+  const [message, setMessage] = useState("");
+  const [state, handleSubmit] = useForm("xqkvjawa");
+  if (state.succeeded) {
+    
+    Swal.fire(
+      "Message sent successfully",
+      "we will get back to you as soon as posible",
+      "success"
+    );
+
+ 
+    
+    // return <p>Thanks for joining!</p>;
+  } 
+ 
+
   return (
     <div>
       <section>
@@ -24,15 +44,54 @@ const Contact = () => {
             </div>
             <div className="col-md-6">
               <div>
-                <form>
+                <form onSubmit={handleSubmit}>
                   <div>
-                    <input type="text" placeholder="your name" />
+                    <input
+                      id="name"
+                      name="name"
+                      type="text"
+                      placeholder="your name"
+                      value={name}
+                      onChange={(e) => setName(e.target.value)}
+                    />
+                    <ValidationError
+                      prefix="Name"
+                      field="name"
+                      errors={state.errors}
+                    />
                   </div>
                   <div>
-                    <input type="text" placeholder="your name" />
+                    <input
+                      id="email"
+                      name="email"
+                      type="text"
+                      placeholder="e-mail"
+                      value={email}
+                      onChange={(e) => setEmail(e.target.value)}
+                    />
+                    <ValidationError
+                      prefix="Email"
+                      field="email"
+                      errors={state.errors}
+                    />
                   </div>
                   <div>
-                    <input type="text" placeholder="your name" />
+                    <input
+                      id="message"
+                      name="message"
+                      type="text"
+                      placeholder="message"
+                      value={message}
+                      onChange={(e) => setMessage(e.target.value)}
+                    />
+                    <ValidationError
+                      prefix="Message"
+                      field="message"
+                      errors={state.errors}
+                    />
+                  </div>
+                  <div>
+                    <button className="sendBtn float-right mt-5">Send</button>
                   </div>
                 </form>
               </div>

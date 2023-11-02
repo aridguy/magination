@@ -5,6 +5,7 @@ import DarePics from "../Assets/mainImage.svg";
 import Projects from "../Components/Projects";
 import Career from "../Components/Career";
 import Contact from "../Routes/Contact";
+import Footer from "../Components/Footer";
 
 const Home = () => {
   return (
@@ -50,14 +51,13 @@ const Home = () => {
               </div>
               <div className="text-white text-center mt-5">
                 <span className="about-txt">
-                  I’m a Product & brand designer <strong>Passionate</strong>{" "}
-                  about <strong>Creativity</strong> in Product with over 4years
-                  of <strong>Experience</strong> in experiential now, I enjoy
-                  using my <strong>diverse design background</strong> to helped
-                  build up upcoming brands and create meaningful and{" "}
-                  <strong>memorable</strong>
-                  user-centered solutions that develop intuition between
-                  technology and people.
+                  I’m a product and brand designer with a strong passion for
+                  fostering creativity in product design. With more than four
+                  years of experience in the field of experiential design, I
+                  find fulfillment in leveraging my extensive design expertise
+                  to contribute to the growth of emerging brands. My goal is to
+                  craft purposeful and memorable user-centric solutions that
+                  establish a seamless connection between technology and people.
                 </span>
               </div>
             </div>
@@ -69,6 +69,7 @@ const Home = () => {
       <Projects />
       <Career />
       <Contact />
+      <Footer />
     </div>
   );
 };

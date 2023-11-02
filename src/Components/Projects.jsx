@@ -1,6 +1,8 @@
 import React from "react";
 import Nft from "../Assets/nftwebapp.png";
 import Pusheat from "../Assets/pusheat-chef-app.png";
+import Rolex from "../Assets/Rolex.png";
+import Invest from "../Assets/Invest.png";
 import "../globalStyle.css";
 
 const Projects = () => {
@@ -38,7 +40,7 @@ const Projects = () => {
                   </div>
                   <div className="col-md-6 text-center mt-5 col-12">
                     <div>
-                      <img width="70%" src={Pusheat} alt="nft application" />
+                      <img width="70%" src={Rolex} alt="nft application" />
                     </div>
                     <div className="text-left">
                       <span className="text-white nft">Rolex webpage</span>{" "}
@@ -56,7 +58,7 @@ const Projects = () => {
                 <div className="row mt-5">
                   <div className="col-md-6 text-center col-12">
                     <div>
-                      <img width="70%" src={Nft} alt="nft application" />
+                      <img width="70%" src={Invest} alt="nft application" />
                     </div>
                     <div className="text-left">
                       <span className="text-white nft">Invest mobile app </span>{" "}
@@ -76,7 +78,7 @@ const Projects = () => {
                     </div>
                     <div className="text-left">
                       <span className="text-white uxcasestudy">
-                      Pusheat chef app
+                        Pusheat chef app
                       </span>{" "}
                       <br />
                       <span className="text-white sub-txt">

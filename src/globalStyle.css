@@ -1,123 +1,186 @@
-.cursor{
-    cursor: pointer;
-}
-.brand{
-    color: #44C61B;
-}
-.black{
-    color: rgb(0, 0, 0);
-}
-body{
-    background-color: #111111;
-    
+.cursor {
+  cursor: pointer;
 }
 
-.hand{
-    color: white;
+.white {
+  color: white;
+}
+.brand {
+  color: #44c61b;
+}
+.black {
+  color: rgb(0, 0, 0);
+}
+body {
+  background-color: #111111;
 }
 
-.p-name{
-    font-family: Euclid Circular A;
-    font-weight: 700;
-    font-size: 69px;
-    line-height: 75px;
+.hand {
+  color: white;
 }
 
-.p-name-title{
-    font-family: Euclid Circular A;
-    font-weight: 400;
-    font-style: italic;
-    font-size: 42px;
-    line-height: 44px;
+.p-name {
+  font-family: Euclid Circular A;
+  font-weight: 700;
+  font-size: 69px;
+  line-height: 75px;
 }
 
-.about-txt{
-    font-size: 27px;
-    font-weight: 400;
-    line-height: 37px;
-    font-family: Euclid Circular A;
-
+.p-name-title {
+  font-family: Euclid Circular A;
+  font-weight: 400;
+  font-style: italic;
+  font-size: 42px;
+  line-height: 44px;
 }
 
-.projects-head{
-    font-weight: 400;
-    font-size: 40px;
-    font-family: Euclid Circular A;
+.about-txt {
+  font-size: 27px;
+  font-weight: 400;
+  line-height: 37px;
+  font-family: Euclid Circular A;
 }
 
-.nft{
-    font-weight: 700;
-    font-size: 36px;
-    font-family: Euclid Circular A;
-    
-}
-.uxcasestudy{
-    font-weight: 700;
-    font-size: 36px;
-    font-family: Euclid Circular A;
-    
+.projects-head {
+  font-weight: 400;
+  font-size: 40px;
+  font-family: Euclid Circular A;
 }
 
-.sub-txt{
-    font-weight: 400;
-    font-size: 18px;
-    font-family: Euclid Circular A;
+.nft {
+  font-weight: 700;
+  font-size: 36px;
+  font-family: Euclid Circular A;
+}
+.uxcasestudy {
+  font-weight: 700;
+  font-size: 36px;
+  font-family: Euclid Circular A;
 }
 
-.extra{
-    font-weight: 300;
-    font-size: 16px;
-    font-family: Euclid Circular A;
+.sub-txt {
+  font-weight: 400;
+  font-size: 18px;
+  font-family: Euclid Circular A;
 }
 
-.career{
-    font-size: 46px;
-    font-weight: 700;
+.extra {
+  font-weight: 300;
+  font-size: 16px;
+  font-family: Euclid Circular A;
 }
 
+.career {
+  font-size: 46px;
+  font-weight: 700;
+}
 
 /* name animationo */
 .animated-gradient {
-    background: linear-gradient(45deg, #f06, #44C61B, #06f, #f06);
-    background-size: 400% 400%;
-    -webkit-background-clip: text;
-    background-clip: text;
-    color: transparent;
-    display: inline-block;
-    animation: gradientAnimation 5s linear infinite;
-  }
-  
-  @keyframes gradientAnimation {
-    0% {
-      background-position: 0% 50%;
-    }
-    100% {
-      background-position: 100% 50%;
-    }
-  }
+  background: linear-gradient(45deg, #f06, #44c61b, #06f, #f06);
+  background-size: 400% 400%;
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  display: inline-block;
+  animation: gradientAnimation 5s linear infinite;
+}
 
-  /* .careerPlaceBg{
+@keyframes gradientAnimation {
+  0% {
+    background-position: 0% 50%;
+  }
+  100% {
+    background-position: 100% 50%;
+  }
+}
+
+/* .careerPlaceBg{
     height: 20em;
     padding-top: 1.3em;
   } */
 
-  .pusheat-txt{
-    font-size:31px ;
-    font-weight: 700;
-  }
-  .pe-title{
-    font-weight: 400;
-    font-size: 23px;
-  }
+.pusheat-txt {
+  font-size: 31px;
+  font-weight: 700;
+}
+.pe-title {
+  font-weight: 400;
+  font-size: 23px;
+}
 
-  .date-work{
-    font-style: italic;
-    font-size: 12px;
-    color: #8f8f8f;
-  }
+.date-work {
+  font-style: italic;
+  font-size: 12px;
+  color: #8f8f8f;
+}
 
-  .contactText{
-    font-size: 72px;
-    font-weight: 700;
-    line-height: 80px;
-  }
+.contactText {
+  font-size: 72px;
+  font-weight: 700;
+  line-height: 80px;
+}
+
+/* contact */
+input {
+  width: 100%;
+  outline: none;
+  border: none;
+  background-color: #43c61b00;
+  border-bottom: 1px solid white;
+  border-bottom-style: dotted;
+  margin-top: 3em;
+  color: white;
+  font-size: 20px;
+  padding-left: 0.5em;
+  padding-bottom: 0.8em;
+}
+::placeholder {
+  color: white;
+}
+
+.sendBtn {
+  outline: none;
+  background-color: #44c61b;
+  color: white;
+  border: none;
+  border-radius: 50px;
+  width: 8em;
+  height: 3.4em;
+  font-family: Euclid Circular A;
+}
+
+.float-right {
+  float: right;
+}
+
+/* footer */
+.footprevious {
+  font-weight: 600;
+  font-size: 43px;
+  font-family: Euclid Circular A;
+}
+
+.inner-footer {
+  padding: 3em;
+  padding-top: 7em;
+}
+
+.text-booth {
+  font-weight: 600;
+  font-size: 25px;
+  color: white;
+}
+
+.i {
+  width: 80px;
+  color: #44c61b;
+}
+
+.red {
+  color: rgb(255, 0, 0);
+}
+
+.fab {
+  width: 40px;
+}
