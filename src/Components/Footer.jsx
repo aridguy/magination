@@ -4,10 +4,16 @@ import "../globalStyle.css";
 import Guiter from "../Assets/guitar.png";
 import Cafes from "../Assets/cybercafe.png";
 
+
 const Footer = () => {
+
+
+
+    
+
+
   return (
     <div>
-
       <section className="bg-black pt-5 pb-5">
         <div className="container ">
           <div className="row">
@@ -79,22 +85,25 @@ const Footer = () => {
             <div className="col-md-3"></div>
             <div className="col-md-6 text-center">
               <div className="white text-center">
-                <i className="fab fa-twitter i"></i>
-                <i className="fab fa-tiktok i"></i>
-                <i className="fab fa-linkedin-in i"></i>
-                <i className="fab fa-figma i"></i>
-                <i className="fab fa-behance i"></i>
-                <i className="fab fa-dribbble i"></i>
+                <a href="https://twitter.com/iamoludarey"><i className="fab fa-twitter i cursor"></i></a>
+                <a href="https://www.tiktok.com/@iamoludarey"><i className="fab fa-tiktok i"></i></a>
+               <a href="https://www.linkedin.com/in/olorunfemi-damilare/"> <i className="fab fa-linkedin-in i"></i></a>
+                <a href="https://www.figma.com/@iamoludarey"><i className="fab fa-figma i"></i></a>
+                <a href="https://www.instagram.com/iamoludarey/"><i className="fab fa-instagram i"></i></a>
+                <a href="https://www.behance.net/iamoludarey"><i className="fab fa-behance i"></i></a>
+                 <a href="https://dribbble.com/iamoludarey"><i className="fab fa-dribbble i"></i></a>
               </div>
               <div>
-              <span className="white">All Rights Reserved. made with <i className="red fas fa-heart"></i> @iamoludarey</span>
+                <span className="white">
+                  All Rights Reserved. made with{" "}
+                  <i className="red fas fa-heart"></i> @iamoludarey
+                </span>
               </div>
             </div>
             <div className="col-md-3"></div>
           </div>
         </div>
       </section>
-
     </div>
   );
 };

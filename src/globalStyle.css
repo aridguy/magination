@@ -12,7 +12,7 @@
   color: rgb(0, 0, 0);
 }
 body {
-  background-color: #111111;
+  background-color: #000000;
 }
 
 .hand {
@@ -183,4 +183,16 @@ input {
 
 .fab {
   width: 40px;
+}
+
+
+.menu-drop{
+  position: absolute;
+  right: 0px;
+}
+
+.text-middle{
+  text-align: center;
+  justify-content: center;
+  margin-top: 9em;
 }
