@@ -3,7 +3,7 @@ import Navbar from "../Components/Navbar";
 import aboutImage from "../Assets/image-about.png";
 import Career from "../Components/Career";
 import Contact from "./Contact";
-import Footer from "../Components/Footer";
+// import Footer from "../Components/Footer";
 
 const About = () => {
   return (

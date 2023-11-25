@@ -51,7 +51,7 @@ const Navbar = () => {
           <div className="container">
             <div className="row">
               <Link to="/about" className="cursor white fw-bolder">About me</Link>
-              <Link to="/playground" className="cursor text-white">Playground</Link>
+           
             </div>
           </div>
         </section>
