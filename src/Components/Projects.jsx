@@ -2,7 +2,7 @@ import React from "react";
 import Nft from "../Assets/nftwebapp.png";
 import Pusheat from "../Assets/pusheat-chef-app.png";
 import Rolex from "../Assets/Rolex.png";
-import Invest from "../Assets/Invest.png";
+import Invest from "../Assets/Kleptar.png";
 import "../globalStyle.css";
 
 const Projects = () => {
@@ -61,14 +61,16 @@ const Projects = () => {
                       <img width="70%" src={Invest} alt="nft application" />
                     </div>
                     <div className="text-left">
-                      <span className="text-white nft">Invest mobile app </span>{" "}
+                      <span className="text-white nft">
+                        Kleptar Real Estate{" "}
+                      </span>{" "}
                       <br />
                       <span className="text-white sub-txt">
-                        Live stock.  Education.  Payments.  All on Mobile
+                        Live Property.  Rent.  Payments.  All on Web/Mobile
                       </span>{" "}
                       <br />
                       <span className="text-muted extra">
-                        UX Case Study - Enterprise • Invest
+                        UX Case Study - Enterprise • Kleptar
                       </span>
                     </div>
                   </div>

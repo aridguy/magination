@@ -14,7 +14,12 @@ const Career = () => {
             <div className="col-md-8"></div>
             <div className="col-md-1">
               <div>
-                <a className="brand resume-button mt-4" href="/">
+                <i className="brand fas fa-download"></i>
+                <a
+                  className="brand resume-button mt-4"
+                  href="Olorunfemi-Damilare.pdf"
+                  download="Olorunfemi-Damilare.pdf"
+                >
                   Get Resume
                 </a>
               </div>
@@ -44,10 +49,10 @@ const Career = () => {
               <span className="date-work">MAY - DEC 2018</span>
             </div>
             <div className="col-md-3">
-            <span className="pusheat-txt black">Imaginnarium</span> <br />
-            <span className="pe-title">Graphics Designer</span> <br />
-            <span className="date-work">NOV - DEC 2015</span>
-          </div>
+              <span className="pusheat-txt black">Imaginnarium</span> <br />
+              <span className="pe-title">Graphics Designer</span> <br />
+              <span className="date-work">NOV - DEC 2015</span>
+            </div>
           </div>
         </div>
       </section>

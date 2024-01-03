@@ -196,3 +196,8 @@ input {
   justify-content: center;
   margin-top: 9em;
 }
+
+.tkup{
+  position: relative;
+  bottom: 35em;
+}

@@ -6,8 +6,38 @@ import Projects from "../Components/Projects";
 import Career from "../Components/Career";
 import Contact from "../Routes/Contact";
 import Footer from "../Components/Footer";
+// import { createClient } from "contentful";
+
+
 
 const Home = () => {
+  // shorten console.log function()
+  // const log = (value) =>{
+  //   console.log(value);
+  // }
+
+// setters and getters up here
+// const [fullName, setFullName] = useState([])
+
+//   const client = createClient({
+//     space: "lzv7ynjiat90",
+//     accessToken: "PBME-f0wQNOrfioOZTqtaKUxiF-kfGdsRuj6f2uofEQ"
+//   })
+
+//   useEffect(() => {
+//       const getAllEntries = async () => {
+//         try{
+//         await client.getEntries().then( (entries) => {
+//           setFullName(entries);
+//           console.log(entries);
+//         })       
+        
+//         } catch (error) {
+//           console.log("error")
+//         }
+//       }
+//       getAllEntries()
+//   }, [client])
   return (
     <div>
       <Navbar />
@@ -28,7 +58,7 @@ const Home = () => {
                   Damilare{" "}
                 </span>
                 <span className="text-white p-name-title">
-                  Product | Brand | Educator
+                  Product | Brand | Educator | Motion
                 </span>
               </div>
             </div>

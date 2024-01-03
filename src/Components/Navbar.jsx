@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import Logo from "../Assets/Logo.svg";
 import "../globalStyle.css";
 import { Link } from "react-router-dom";
@@ -6,8 +6,8 @@ import { Link } from "react-router-dom";
 const Navbar = () => {
 
   
-  const [showMenu, setShowMenu] = useState(false);
-  const handleMenu = () => setShowMenu((prevState) => !prevState)
+  // const [showMenu, setShowMenu] = useState(false);
+  // const handleMenu = () => setShowMenu((prevState) => !prevState)
   return (
     <div>
       <section>
@@ -35,27 +35,19 @@ const Navbar = () => {
                     Home
                   </a>
                 </li>
+                <li className="nav-item">
+                  <Link to='/about' className="nav-link">
+                   About
+                  </Link>
+                </li>
               </ul>
 
-              <div className="d-flex align-items-center">
-                <i onClick={handleMenu} className="fas fa-bars cursor text-white"></i>
-              </div>
             </div>
           </div>
         </nav>
       </section>
 
-      {showMenu &&
-        // menus with dropdown
-        <section className="menu-drop">
-          <div className="container">
-            <div className="row">
-              <Link to="/about" className="cursor white fw-bolder">About me</Link>
-           
-            </div>
-          </div>
-        </section>
-      }
+     
     </div>
   );
 };
