@@ -13,7 +13,7 @@ const Navbar = () => {
       <section>
         <nav className="navbar navbar-expand-lg navbar-dark bg-muted shadown-0">
           <div className="container">
-            <a className="navbar-brand me-2" href="https://mdbgo.com/">
+            <a className="navbar-brand me-2" href="/">
               <img src={Logo} height="16" alt="MDB Logo" loading="lazy" />
             </a>
             <button
